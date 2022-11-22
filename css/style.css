@@ -19,7 +19,7 @@
 header{
     height: 70px;
     width: 100%;
-    background-color: pink;
+    background-color: white;
     padding: 5px;
     display: flex;
     justify-content: space-between;
@@ -40,11 +40,26 @@ header div{
 
 /* MAIN */
 main{
-    margin-top: 100px;
+    margin-top: 70px;
+}
+
+.main-header{
+    background-color: #b4d0e7;
+    padding-top: 40px;
+}
+
+.testo{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 main h1{
     font-family: 'Oswald', sans-serif;
+    font-size: 70px;
+    width: 50%;
+    justify-content: center;
 }
 
 /* FOOTER */
