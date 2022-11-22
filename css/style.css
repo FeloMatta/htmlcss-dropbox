@@ -5,9 +5,10 @@
 }
 
 .container{
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
 
 
 
@@ -16,15 +17,37 @@
 
 /* HEADER */
 header{
+    height: 70px;
+    width: 100%;
+    background-color: pink;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 30;
+    top: 0;
+    left: 0;
+}
 
+header div{
+    padding: 10px;
+}
+
+.inizia{
+    background-color: blue;
+    color: white;
 }
 
 /* MAIN */
 main{
+    margin-top: 100px;
+}
 
+main h1{
+    font-family: 'Oswald', sans-serif;
 }
 
 /* FOOTER */
 footer{
-    
+
 }
